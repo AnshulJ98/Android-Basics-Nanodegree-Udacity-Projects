@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anshulj.tourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nyicon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/nyicon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aboutActivity"
+            android:label="@string/aboutName"/>
+        <activity android:name=".cuisineActivity"
+            android:label="@string/Cuisine"/>
+        <activity android:name=".hotelsActivity"
+            android:label="@string/Hotels"/>
+        <activity android:name=".topAttractionsActivity"
+            android:label="@string/TopAttractions"/>
+        <activity android:name=".barsActivity"
+            android:label="@string/Bars"/>
+    </application>
+
+</manifest>

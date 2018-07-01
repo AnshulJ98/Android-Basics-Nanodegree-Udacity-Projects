@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/b33"
+            android:scaleType="center"/>
+        <ImageView
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/b33"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/b33"
+            android:scaleType="centerCrop"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your name :"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <EditText
+            android:id="@+id/name_field"
+            android:textColor="#aaa"
+            android:textStyle="bold"
+            android:textColorHint="#aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your contact no. :"
+            android:textSize="16sp"/>
+        <EditText
+            android:inputType="number"
+            android:id="@+id/contact_field"
+            android:textColor="#aaa"
+            android:textStyle="bold"
+            android:textColorHint="#aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Contact no"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="16sp"
+            android:text="Question 1 : \n\nHow to get a response from an activity in Android?"/>
+        <RadioGroup
+            android:id="@+id/radiogroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radiobutton1"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="startActivityToResult()"
+                android:onClick="r1Clicked"/>
+            <RadioButton
+                android:id="@+id/radiobutton2"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="startActicityForResult()"
+                android:textSize="16sp"
+                android:onClick="r1Clicked"
+                />
+            <RadioButton
+                android:id="@+id/radiobutton3"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bundle()"
+                android:textSize="16sp"
+                android:onClick="r1Clicked"
+                />
+            <RadioButton
+                android:id="@+id/radiobutton4"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of the above"
+                android:textSize="16sp"
+                android:onClick="r1Clicked"
+                />
+
+        </RadioGroup>
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+
+            android:text="Question 2: \n\nWhat is collection of different views called?"/>
+        <EditText
+            android:id="@+id/text_field1"
+            android:textColor="#aaa"
+            android:textStyle="bold"
+            android:textColorHint="#aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:hint="ViewGroup"/>
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:text="Question 3 : \n\nWhat is the difference between margin and padding in android layout?"
+
+            />
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Margin is specifying extra space left in all four sides of layout"
+            />
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:text="Padding is used to offset the content of the view by specific px or dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Question 4 : \n\n Type the text below"/>
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:layout_margin="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/captcha2"/>
+        <EditText
+            android:id="@+id/captcha_field"
+            android:textColor="#aaa"
+            android:textStyle="bold"
+            android:textColorHint="#aaa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:hint="not a robot smwm"/>
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:text="Question 5 : \n\nHow to find the JSON element length in android JSON?"/>
+        <RadioGroup
+            android:id="@+id/radiogroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radiobutton21"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="count()"
+                android:onClick="r2Clicked"/>
+            <RadioButton
+                android:id="@+id/radiobutton22"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="sum()"
+                android:onClick="r2Clicked"
+                />
+            <RadioButton
+                android:id="@+id/radiobutton23"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add()"
+                android:textSize="16sp"
+                android:onClick="r2Clicked"/>
+            <RadioButton
+                android:id="@+id/radiobutton24"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="length()"
+                android:textSize="16sp"
+                android:onClick="r2Clicked"/>
+
+        </RadioGroup>
+
+        <TextView
+
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text= "Details : "/>
+        <TextView
+            android:id="@+id/details"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:text="Name : "/>
+        <LinearLayout
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <Button
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:backgroundTint="#FFA726"
+                android:onClick="submitQuiz"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
