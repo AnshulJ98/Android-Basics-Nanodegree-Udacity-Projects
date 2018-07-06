@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="empty_activity">Empty Inventory!!, Let\'s start by adding new items</string>
+    <string name="click_photo_to_update">Click Photo to Update</string>
+    <string name="product_name">Product Name</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="hint_item_price">Price</string>
+    <string name="hint_item_name">Item Name</string>
+    <string name="add_product_title">Add Item</string>
+    <string name="edit_product_title">Edit Item</string>
+    <string name="unsaved_resource">You have unsaved information are you sure you want to exit</string>
+    <string name="delete_confirmaion">Are you sure you want to delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_error">Failed deleting product</string>
+    <string name="editor_delete_item_successful">Deleted Successfully</string>
+    <string name="Permissions_Neededd">Need Permissions to get Photo</string>
+    <string name="error_insert">Error Inserting</string>
+    <string name="update_Success">Update successful</string>
+    <string name="complete_fields">You Need to complete all fields</string>
+</resources>
